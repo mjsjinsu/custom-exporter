@@ -13,8 +13,8 @@ func authorize(sender autorest.Sender) autorest.Authorizer {
 	httpMethod := "GET"
 	requestUrl := "/vpc/v2/getVpcList?regionCode=FKR&responseFormatType=json"
 	auth := authentication.Builder{
-		AccessKeyId: "72AFE4EB24989324771E",
-		SecretKey:   "F9C90BCD8C7534C991A682A724E4D20B44AF7D1F",
+		AccessKeyId: "xx",
+		SecretKey:   "xx",
 		HttpMethod:  httpMethod,
 		RequestURL:  requestUrl,
 	}
